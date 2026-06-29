@@ -10,7 +10,9 @@ Prepare and develop the AdaFusion / PathoOracle Nature Communications manuscript
 
 - Main project folder: `D:\BaiduSyncdisk\[paper-work]\AdaFusion NC`
 - Project files are synchronized through Baidu Sync Disk.
-- Git is intended to track lightweight project state: writing notes, analysis scripts, figure plans, README files, and this handoff file.
+- Local Git is initialized on this device.
+- Remote repository: `https://github.com/momoyu-xyx/AdaFusion`
+- Git tracks lightweight project state: writing notes, analysis scripts, figure plans, README files, and this handoff file.
 - Large source files, PDFs, raw data, temporary outputs, and heavy image/model files should stay on the sync disk and should not be committed to Git.
 
 ## Manuscript Direction
@@ -42,12 +44,11 @@ Pathology foundation models encode complementary and spatially structured tissue
 
 ## Next Recommended Tasks
 
-1. Install Git for Windows on this device if it is not already available.
-2. Initialize a Git repository in this project folder.
-3. Commit lightweight files: `.gitignore`, `README.md`, `CODEx_HANDOFF.md`, and `writing/`.
-4. Create a private remote repository on GitHub, Gitee, GitLab, or a lab server.
-5. Push the initial commit.
-6. On the second device, clone or connect to the same remote repository, then use the sync disk for large files.
+1. On the second device, install Git if needed.
+2. Clone or connect to `https://github.com/momoyu-xyx/AdaFusion`.
+3. Keep large project files synchronized through Baidu Sync Disk.
+4. Before switching devices, update this handoff file, commit, and push.
+5. After switching devices, pull first, then ask Codex to read this file.
 
 ## Suggested Device-Switch Routine
 
